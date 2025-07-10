@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./logo.svg" alt="logo" />
+<img src="./fullLogo.svg" alt="logo" />
 </div>
 
 clipper helps you track and manage the last 100 things you have copied in your browser.

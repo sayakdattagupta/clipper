@@ -1,6 +1,27 @@
+@font-face {
+  font-family: "Gideon Roman";
+  src: url("./assets/fonts/GideonRoman-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter18-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: black;
   color: white;
+  font-family: "Inter", sans-serif;
+}
+body {
+  font-size: 1.1em;
+}
+h1 {
+  font-family: "Gideon Roman", serif !important;
 }
 a {
   color: #66ccff;
@@ -9,4 +30,14 @@ a {
 a:hover {
   color: #99e0ff;
   text-decoration: underline;
+}
+button {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  padding: 4px;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
