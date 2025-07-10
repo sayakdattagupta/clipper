@@ -13,7 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const formatted = formatTime(item.time);
 
       const li = document.createElement("li");
-      li.style.marginBottom = "8px";
+      li.style.paddingBottom = "1em";
+      li.style.marginBottom = "1em";
+      li.style.borderBottom = "solid white";
 
       const headerDiv = document.createElement("div");
       headerDiv.style.display = "flex";
